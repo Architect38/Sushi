@@ -1,0 +1,14 @@
+/* .app{
+  position: relative;
+  width: 97vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.app{
+  position: relative;
+  width: 97%;
+  min-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}

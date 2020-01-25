@@ -1,0 +1,199 @@
+.main{
+  position:absolute;
+  cursor: pointer;
+  top:100px;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-rows: 360px 360px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "a a a b b b c c c d d d"
+                       "a a a b b b c c c e e e";
+}
+.main::-webkit-scrollbar {width:0px;}
+.a{
+    grid-area: a;
+    background: #8ed8f7;
+}
+.a img{
+  position: relative;
+  top: -90px;
+  transition: 1s;
+  width: 90%;
+}
+.a img:hover{
+  transform: translateY(90px);
+}
+.a span{
+  position: relative;
+  top:-50px;
+  left: 20px;
+  color: white;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: Gilroy, sans-serif;
+}
+.b{
+    grid-area: b;
+    background: #f32b2b;
+    overflow-x: hidden;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: Gilroy, sans-serif;
+}
+.b img{
+  width: 50%;
+}
+.rolls img{
+  position: relative;
+  left: -15%;
+  transition: 1s;
+}
+.rolls img:hover{
+  transform: translateX(25%);
+}
+.sushi img{
+  position: relative;
+  right: -55%;
+  transition: 1s;
+}
+.sushi img:hover{
+  transform: translateX(-25%);
+}
+.sushi span{
+  position: relative;
+  left:30%;
+}
+.fried_rolls img{
+  position: relative;
+  left: -15%;
+  transition: 1s;
+}
+.fried_rolls img:hover{
+  transform: translateX(25%);
+}
+.fried_rolls div:nth-child(2n){
+  position: relative;
+  top: -150px;
+  left: 50%;
+}
+
+
+
+
+
+
+.c{
+    grid-area: c;
+    background: white;
+    overflow: hidden;
+    color: #f32b2b;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.c img{
+ position: relative;
+ left: -20%;
+ top: -200px;
+ transition: 1s;
+}
+.c img:hover{
+ position: relative;
+ transform: translateX(10%);
+}
+.text_vok{
+  margin:5%;
+}
+.text_vok div:last-child{
+  font-size: 1rem;
+}
+
+
+.d{
+    grid-area: d;
+    background: #f32b2b;
+    overflow: hidden;
+    text-align: center;
+}
+.d img{
+    position: relative;
+    top:-100px;
+    transition: 1s;
+}
+.d img:hover{
+  transform: rotate(-45deg);
+}
+.d div{
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: Gilroy, sans-serif;
+  position: relative;
+  top:-80px;
+  left:-25%;
+}
+
+
+
+.e{
+    grid-area: e;
+    background: #9fe48b;
+    font-size: 2rem;
+    color: #f32b2b;
+    font-weight: 700;
+    overflow: hidden;
+}
+.e div:first-child div{
+  position: relative;
+  top:-150px;
+  right: -50%;
+}
+.e div:first-child img{
+  position: relative;
+  left: -10%;
+  transition: 1s;
+}
+.e div:first-child img:hover{
+  position: relative;
+  left: -10%;
+  transform: translateX(20%);
+}
+.e div:last-child div{
+  position: relative;
+  left: 10%;
+}
+.e div:last-child img{
+  width: 40%;
+  position: relative;
+  left: 60%;
+  top: -70px;
+  transition: 1s;
+}
+.e div:last-child img:hover{
+  width: 40%;
+  position: relative;
+  left: 60%;
+  top: -70px;
+  transform: translateY(-25%);
+}
+/* @media (max-width: 1280px) {
+  .main{
+    grid-template-areas: "a a a b b b"
+                         "a a a b b b "
+                         "c c c d d d "
+                         "c c c e e e ";
+    grid-template-rows: 180px 180px 180px 180px;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+/* @media (max-width: 765px) {
+  .main{
+    grid-template-areas: "a"
+                         "b"
+                         "c"
+                         "d"
+                         "e";
+    grid-template-rows: repeat(5, 200px);
+    grid-template-columns: 1fr;
+  }
+} */ 

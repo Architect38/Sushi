@@ -1,0 +1,55 @@
+.main{
+  color: #999;
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:100px;
+  width: 100%;
+  overflow:hidden;
+}
+.main span span{
+  margin: 1rem;
+}
+.main span span:hover{
+  color:red;
+  cursor: pointer;
+}
+.logo{
+  width: 20%;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.info_1{
+  position: absolute;
+  top: 20px;
+  left: 25%;
+}
+.info_2{
+  position: absolute;
+  top: 20px;
+  right: 200px;
+}
+.info_3{
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  padding: 0.8rem;
+  background: white;
+  border-radius: 20px;
+  border: 2px;
+  box-shadow: 7px 6px 15px -1px rgba(41, 38, 38, 0.75);
+  color: #999;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.info_1 div, .info_2 div {
+  margin-bottom: 0.5rem;
+}
+.info_3 span{
+  position: relative;
+  top:-4px;
+}
+.info_3:hover span{
+  color: red;
+}
