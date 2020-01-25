@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ee3bfcb5798078aae77832dd4601eaa",
+    "revision": "ad172c466ac1aa4f57ebfe2c0256ee74",
     "url": "/Sushi/index.html"
   },
   {
-    "revision": "8f5564be3ec950737247",
+    "revision": "200e1abb85ccfbfc82ed",
     "url": "/Sushi/static/css/main.f0b166d5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sushi/static/js/2.0f15b1c0.chunk.js.LICENSE"
   },
   {
-    "revision": "8f5564be3ec950737247",
-    "url": "/Sushi/static/js/main.d526ac7d.chunk.js"
+    "revision": "200e1abb85ccfbfc82ed",
+    "url": "/Sushi/static/js/main.bab5d05b.chunk.js"
   },
   {
     "revision": "6b7ec8cfa3d3b46612ba",
