@@ -10,7 +10,7 @@ class MainScreen extends Component {
     }
     render() {
       return (
-        <NavLink className={s.redirect} to="/catalog">
+        <NavLink className={s.redirect} to="/Sushi/catalog">
         <div className={s.main}>
             <div onClick={()=>this.props.changeCurrentCategory("Сеты")} className={s.a}>
                 <img src="http://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/index/sets_desktop.png"/>
