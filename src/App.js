@@ -13,8 +13,8 @@ function App() {
       <div className="app">
         <Header/>
         <Route exact path="/" render={()=><MainScreen/>} />
-        <Route exact path="/Sushi/" render={()=><MainScreen/>} />
-        <Route exact path="/catalog" render={()=><Catalog/>} />
+        <Route exact path="/sushi" render={()=><MainScreen/>} />
+        <Route exact path="/sushi/catalog" render={()=><Catalog/>} />
         <Footer/>
       </div>
     </BrowserRouter>

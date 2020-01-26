@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
       return (
         <div className={s.main}>
-          <NavLink className={s.redirect} to="/sushi">
+          <NavLink to="/sushi/catalog">
             <img className={s.logo} src="https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/logo.png"/>
           </NavLink>
           <span className={s.info_1}>
