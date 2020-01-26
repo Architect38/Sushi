@@ -1,20 +1,12 @@
 .main{
-  position:absolute;
-  top: 850px;
   left: 0px;
-  background:white;
   width: 100%;
   height: 70px;
   font-size: 16px;
   color: #999;
+  margin-top: 2rem;
 }
-/* .footer{
-  position: relative;
-  top: 20px;
-  width: 98%;
-  margin-right: auto;
-  margin-left: auto;
-} */
+
 .info_1 span:hover, .info_2 span:hover{
   color:red;
   cursor: pointer;
@@ -29,12 +21,3 @@
 .info_2 span{
   margin-right: 1rem;
 }
-
-/* @media (max-width: 1280px) {
-  .main{
-      height: 120px;
-  }
-  .info_2{
-    transform: translateY(50px);
-  }
-} */

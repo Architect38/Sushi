@@ -1,13 +1,18 @@
 .main{
-  position:absolute;
+  position:relative;
   cursor: pointer;
-  top:100px;
   overflow-y: scroll;
   display: grid;
   grid-template-rows: 360px 360px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: "a a a b b b c c c d d d"
                        "a a a b b b c c c e e e";
+}
+.redirect{
+  text-decoration: none;
+}
+.a{
+  text-decoration: none;
 }
 .main::-webkit-scrollbar {width:0px;}
 .a{
@@ -36,10 +41,10 @@
     grid-area: b;
     background: #f32b2b;
     overflow-x: hidden;
-    color: white;
     font-size: 1.7rem;
     font-weight: 600;
     font-family: Gilroy, sans-serif;
+    color: white;
 }
 .b img{
   width: 50%;
@@ -196,4 +201,4 @@
     grid-template-rows: repeat(5, 200px);
     grid-template-columns: 1fr;
   }
-} */ 
+} */

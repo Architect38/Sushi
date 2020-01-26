@@ -1,11 +1,8 @@
 .main{
+  position: relative;
   color: #999;
-  position:absolute;
-  top:0px;
-  left:0px;
   height:100px;
   width: 100%;
-  overflow:hidden;
 }
 .main span span{
   margin: 1rem;

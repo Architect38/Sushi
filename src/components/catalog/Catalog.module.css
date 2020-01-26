@@ -1,0 +1,29 @@
+.main{
+  margin-bottom: 1rem;
+}
+.menu{
+  margin-bottom: 2rem;
+}
+.preloader{
+  height: 700px;
+}
+.active{
+  color:red;
+}
+.noActive{
+  color: #999;
+}
+.menu span{
+  margin: 0.6rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.menu  span:hover{
+  color: red;
+}
+.products{
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}

@@ -5,7 +5,6 @@ class Footer extends Component {
     render() {
       return (
         <div className={s.main}>
-          <div className={s.footer}>
             <span class={s.info_1}>
               <img src="https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/menu-phone-social-icon-2.svg" align="middle"/>
               <img src="https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/menu-phone-social-icon-1.svg" align="middle"/>
@@ -24,7 +23,6 @@ class Footer extends Component {
               <img src="https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/master-card.svg"/>
               <img src="https://xn--80adjkr6adm9b.xn--p1ai/static/sv/img/visa.svg"/>
             </span>
-          </div>
         </div>
       )
     }
