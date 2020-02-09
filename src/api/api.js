@@ -14,7 +14,7 @@ export const catalogAPI = {
        //return response.data;
 
       //Далее идет имитация взаимодействия с сервером
-      let image = process.env.PUBLIC_URL + `/${category}.png`;
+      let image = process.env.PUBLIC_URL + `/temp/${category}.png`;
       const description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
       const data = [
         {id:1,name:category,description:description,price:560,image:image},
